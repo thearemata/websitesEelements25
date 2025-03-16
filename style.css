@@ -1,0 +1,163 @@
+/* This sets the margin and front for the entire page */
+body {
+    margin: 0;
+    font-family: Arial, sans-serf;
+    /*background-color: aqua;*/
+}
+
+/* This sets the style for the header */
+header {
+     background-color: #333;
+    /* sets the background colour of the header to dark grey*/
+    color: #fff;
+    /* sets the front colour to white*/
+    padding: 20px;
+    /* add 20 pixels of padding around the header content */
+    display: flex;
+    /* sets the header to use flexbox layout */
+    justify-content: space-between;
+    /* horizantally aligns the content of the header */
+    align-items: center;
+    /* vertically align the content of the header */
+}
+
+/* This styles the h1 tag in the header*/
+h1{
+    margin-right: auto;
+    /* pushes the h1 tag to the left side of the header*/
+}
+/* This adds a class called logo for the image in the header*/
+/* This styles the h1 tag in the header*/
+h1{
+    margin-right: auto;
+    /* pushes the h1 tag to the left side of the header*/
+}
+/* This adds a class called logo for the image in the header*/
+.logo {
+   margin-left: 1rem; /* adds 1 rem of margin to the left of the logo images*/
+   height: 3rem; /*sets the heigjht of the logo image to 3 rem*/
+}
+
+/* This styles the unordered list in the navigation*/
+nav ul {
+     list-style: none;
+    /* Removes the bullet points from list*/
+     margin: 0;
+    /*Sets margin of the list to 0*/
+     padding: 0;
+    /* sets padding of the list to 0*/
+     display: flex;
+    /* sets the list to the use flexbox layout */
+}
+
+/* This styles the list items in the navigation */
+nav li {
+    margin: 0 10px;
+    /* adds margin to the left and right of the list items */
+}
+
+/* This styles the links in the navigation */
+nav a {
+    color: #fff;
+    /* sets the front color of the links to white */
+    text-decoration: none;
+    /* removes underline from the lines*/
+}
+
+main {
+    max-width: 1200px;
+    /* Sets the maximum width of the main conext to 1200 pixels */
+    margin: 0 auto;
+    /* Centers the main conetnt within its parent element using margin auto*/
+    padding: 20px;
+    /* Adds 20 pixels of padding to the main context*/
+}
+
+#overview {
+  text-align: Left; /* Align the text of the # landing element to the left */
+  Margin-top: 50px; /* Adds a margin of 50 pixels to the top of the #landing element */
+}
+
+.largeheading {
+ font-size: 5rem; /* Sets the font size of the .largeheading element to 2rem */
+ color: dodgerblue; /* Sets the text color of the .largeheading element to dodgerblue */
+ font-weight: bold; /* Stes the font weight of the .largeheading element to bold */
+ /* align-items: center; Align the items in the .largeheading element to the center */
+ /* text-align: center; Aligns the text of the .largeheading element to the center */
+}
+
+/* This sets the style for the centered class */
+.centered {
+  text-align: center; /* centers the content of the element horizontally */
+}
+
+#overview p {
+ font-size: 24px; /* Sets the front size of the paragrapghs in the #landing element to 24px */
+ line-height: 1.5; /* Sets the line height of the paragrapghs in the #landing element to 1.5 */
+ }
+
+/* This sets the style for the footer */
+footer {
+ background-color: #333; /* sets the background color of the footer to dark grey */
+ color: #fff; /* sets the font color to white */
+ padding: 20px; /* adds 20 pixels of padding around the footer content */
+ display: flex; /* sets the footer to use flexbox layout */
+ justify-content: space-between; /* horizontally aligns the content of the footer */
+ align-items: center; /* vertically aligns the content of the footer */
+ 
+}
+
+/* This sets the style for the social media icons */
+.social-media {
+ list-style: none; /* removes bullet points from list */
+ margin: 0; /* removes margin from list */
+ padding: 0; /* removes padding from list */
+ display: flex; /* sets the icons to use flexbox layout */
+}
+
+.social-media li {
+ display: inline-block; /* displays each icon horizontally */
+ margin-right: 10px; /* adds 10 pixels of margin to the right of each icon */
+}
+
+/* This sets the style for the image inside each social media icon */
+.social-media li img {
+ width: 50px; /* sets the width of each image to 50 pixels */
+ height: 50px; /* sets the height of each image to 50 pixels */
+}
+
+video {
+ width: 50vw;
+ height: auto;
+ display: block;
+ margin: auto;
+}
+
+/* This sets the style for the header */
+.point {
+    padding: 20px;
+    /* add 20 pixels of padding around the header content */
+    display: flex;
+    /* sets the header to use flexbox layout */
+    justify-content: space-between;
+    /* horizantally aligns the content of the header */
+    align-items: center;
+    /* vertically align the content of the header */
+}
+
+/* This sets the style for the image inside each point icon */
+.point img {
+  width: 82px; /* sets the width of each image to 50 pixels */
+  padding: 20px;
+    /* add 20 pixels of padding around the point */
+}
+
+/* This sets the style for the footer */
+footer {
+ padding: 20px; /* adds 20 pixels of padding around the footer content */
+ display: flex; /* sets the footer to use flexbox layout */
+ justify-content: space-between; /* horizontally aligns the content of the footer */
+ align-items: center; /* vertically aligns the content of the footer */
+ 
+}
+
